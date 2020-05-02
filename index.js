@@ -3,5 +3,5 @@ const path = require('path')
 const PORT = process.env.PORT || 5000
 
 express()
-  .use('/', express.static(path.join(__dirname, 'templated-industrious')))
+  .use('/', express.static(path.join(__dirname, 'html5up-phantom')))
   .listen(PORT, () => console.log(`Listening on ${ PORT }`))
